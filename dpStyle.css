@@ -1,0 +1,42 @@
+body {
+			background-image: url(bossWood.jpg);
+			color: #FFFFFF;
+		}
+		h1 {
+			font-style: italic;
+		}
+		p {
+			display: inline-block;
+			width: 30%;
+		}
+		#three-d {
+			color: #fff;
+			text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+			font: 50px 'Exo 2';
+		}
+
+		/* Padding is the space within the borders, margin is the space outside the border */
+
+		section h1 {
+			text-align: center;
+		}
+		.mods {
+			color: #770000;
+		}
+		h2.makebig {
+			font-size:100px
+		}
+		h3.makebig {
+			font-size: 60px;
+		}
+		#feet {
+			color: #770000;
+		}
+
+		@media screen and (max-width: 500px){
+			body {
+				background-color: red;
+			}
+		}
+		
+		/* CSS-Tricks.com /*
